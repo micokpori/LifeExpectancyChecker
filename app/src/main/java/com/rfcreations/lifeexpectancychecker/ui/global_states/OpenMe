@@ -1,0 +1,7 @@
+ * This package(global_states) stores global state values to be provided via dagger hilt
+ * Global states are state values that leads to recomposition
+ * but will be too cumbersome to be passed unto composable functions down the hierarchy
+ * Example: Theme
+ * passing theme down to settings screen will be too cumbersome therefore it is made a class that is
+ * injected into the settings screen viewmodel
+ *
